@@ -1,0 +1,33 @@
+---
+title: "Panagiotis Chatzinikolaou"
+image: "images/avatar.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/panagiotis-chatzinikolaou-594319168/"
+  - label: Twitter
+    url: "https://twitter.com/PanosChatz1"
+  - label: GitHub
+    url: "https://github.com/PanosChatzi"
+  - label: Email
+    url: "chatzinpn@phed-sr.auth.gr"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+# Learn more about publishing to GitHub Pages at:
+# https://rstudio.github.io/distill/publish_website.html#github-pages
+
+```
+
+Welcome to my *new* website.
+
+See my CV for more info:  
+[CV](https://panos-chatz.netlify.app/files/Eng-cv.pdf)
+

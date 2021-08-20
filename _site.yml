@@ -1,0 +1,17 @@
+name: "."
+title: "Panagiotis Chatzinikolaou"
+description: |
+  Panagiotis Chatzinikolaou
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Hello"
+      href: index.html
+    - text: "Publications"
+      href: about.html
+    - text: "Presentations"
+      href: presentations.html
+    - icon: fab fa-github
+      href: https://github.com/PanosChatzi
+output: distill::distill_article
+theme: theme.css
