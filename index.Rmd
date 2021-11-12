@@ -2,14 +2,14 @@
 title: "Panagiotis Chatzinikolaou"
 image: "images/avatar.jpg"
 links:
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/panagiotis-chatzinikolaou-594319168/"
-  - label: Twitter
+  - label: '`r fontawesome::fa("twitter", height = "25px")`'
     url: "https://twitter.com/PanosChatz1"
-  - label: GitHub
+  - label: '`r fontawesome::fa("researchgate", height = "25px")`'
+    url: "https://www.researchgate.net/profile/Panagiotis_Chatzinikolaou4"
+  - label: '`r fontawesome::fa("github", height = "25px")`'
     url: "https://github.com/PanosChatzi"
-  - label: Email
-    url: "chatzinpn@phed-sr.auth.gr"
+  - label: '`r fontawesome::fa("envelope", height = "25px")`'
+    url: "mailto:chatzinpn@phed-sr.auth.gr"
 output:
   postcards::jolla
 site: distill::distill_website
@@ -28,6 +28,4 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Welcome to my *new* website.
 
-See my CV for more info:  
-[CV](https://panos-chatz.netlify.app/files/Eng-cv.pdf)
-
+See my [CV](https://panos-chatz.netlify.app/files/Eng-cv.pdf) for more info.
