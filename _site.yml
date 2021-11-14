@@ -9,7 +9,12 @@ navbar:
       href: index.html
     - text: "Publications"
       href: about.html
-    - text: "Presentations"
+    - text: "Teaching"
+      menu:
+        - text: "First article"
+          href: articles/article1.html
+        - text: "Second article"
+          href: articles/article2.html
       href: presentations.html
     - icon: fab fa-github
       href: https://github.com/PanosChatzi
